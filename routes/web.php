@@ -13,4 +13,4 @@ Route::get('/', function () {
 Route::resource('products', ProductController::class);
 Route::resource('order_products', OrderProductController::class);
 Route::resource('evidence_pictures', EvidencePictureController::class);
-
+Route::resource('enterprise_orders', EnterpriseOrderController::class);
